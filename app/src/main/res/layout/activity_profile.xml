@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/buttonAddStudents"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="179dp"
+        android:text="Add Students"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonAddCourse"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="179dp"
+        android:text="Add Course"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="37dp"
+        android:text="Logout"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonShowStudents"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="275dp"
+        android:text="Show Courses"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonShowStudents2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="274dp"
+        android:text="Show Students"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonShowProfessors"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="230dp"
+        android:layout_marginBottom="368dp"
+        android:text="Show Professors"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonShowOneCourse"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="365dp"
+        android:text="Show One Course"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonShowOneStudent"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="478dp"
+        android:text="Show One Student"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonShowOneProfessor"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="477dp"
+        android:text="Show One Professor"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

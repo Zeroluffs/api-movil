@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="69dp"
+        android:text="Search Student"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <EditText
+            android:id="@+id/editStudentId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:hint="studentid"
+            android:inputType="textEmailAddress" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="7dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="7dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="7dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPhone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="7dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+    <TextView
+        android:id="@+id/textViewCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="7dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+    <TextView
+        android:id="@+id/textViewBirthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewCity"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="7dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+    <Button
+        android:id="@+id/buttonSearchStudent"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="2dp"
+        android:text="Search"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonGoBackMain2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="60dp"
+        android:text="Go back Main Menu"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

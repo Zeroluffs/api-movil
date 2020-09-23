@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Search Course"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/editCourseId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:hint="courseid"
+            android:inputType="textEmailAddress" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:lineSpacingExtra="7dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+    <Button
+        android:id="@+id/buttonSearchCourse"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="Search"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/buttonGoBackMain"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="109dp"
+        android:layout_marginBottom="73dp"
+        android:text="Go back Main Menu"
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>
